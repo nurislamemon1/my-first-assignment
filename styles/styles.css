@@ -264,5 +264,39 @@ font-weight: 600;
      margin-bottom: 100px;
 }
 
+.vedio-section-container{
+     width: 566px;
+     height: 285px;
+     margin: 0 auto;
+     margin-top: 30px;
+}
+.video-text-content{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 580px;
+     height: 60px;
+}
+.video-text-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.video-text-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.video-content{
+      width: 565px;
+      height: 305px;
+      margin-top: 20px;
+}
+
 
 

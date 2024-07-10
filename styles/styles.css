@@ -306,11 +306,11 @@ font-weight: 600;
       width: 566px;
       height: 240px;
       margin: 0 auto;
-      border: 2px solid yellow;
       margin-top: 50px;
       display: flex;
       flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
       
 }
 .skills h3{
@@ -364,4 +364,56 @@ font-weight: 600;
     border-radius: 10px;
 
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* support section starts here */
+
+
+.title { 
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 20px;
+}
+.description{
+    
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.support{
+    width: 566px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("/assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+   
+}
+.footer-column{
+     width: 230px;
+     height: 30px;
+     box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 4px;
+
+background: rgb(255, 255, 255);
+margin-top: 30px;
+
 }
